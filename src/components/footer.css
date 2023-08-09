@@ -5,9 +5,17 @@
     color: var(--secondary-clr);
     padding: var(--rem);
     font-size: 0.75rem;
+    font-family: var(--ff-primary);
+    font-weight: bold;
   }
 
   footer a {
     color: var(--tertiary-clr);
+    transition: all 250ms ease-in-out;
+  }
+
+  footer a:hover {
+    filter: brightness(1.5);
+    text-decoration: none;
   }
 }

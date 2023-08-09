@@ -1,0 +1,55 @@
+@media (min-width: 0) {
+  .female_section {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("https://img.freepik.com/free-vector/collection-illustrated-heart-icons_53876-8314.jpg?w=2000");
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .female_section h1 {
+    color: var(--secondary-clr);
+    font-size: 4ch;
+    text-shadow: 0 0 0.1rem black;
+  }
+
+  .female_section p {
+    filter: saturate(1.5);
+    color: var(--tertiary-clr);
+    font-size: 2ch;
+    text-shadow: 0 0 0.1rem black;
+    font-weight: bold;
+  }
+
+  .female_section .home_btn {
+    text-decoration: none;
+    color: var(--secondary-clr);
+    font-family: var(--ff-primary);
+    font-weight: bold;
+    border: 2px solid var(--secondary-clr);
+    padding: var(--rem);
+    transition: all 250ms ease-in-out;
+  }
+
+  .female_section .home_btn:hover {
+    border: 2px solid var(--tertiary-clr);
+    background-color: var(--tertiary-clr);
+    color: var(--primary-clr);
+    filter: saturate(1.5);
+  }
+}
+
+@media (min-width: 1024px) {
+  .female_section h1 {
+    font-size: 5vw;
+  }
+
+  .female_section p {
+    font-size: 2vw;
+  }
+}

@@ -11,6 +11,14 @@ html {
   --primary-clr: #234e70;
   --secondary-clr: #fbf8be;
   --tertiary-clr: #f7cb9c;
+
+  --ff-primary: "Rajdhani", sans-serif;
+}
+
+h1,
+p,
+.btn {
+  font-family: var(--ff-primary);
 }
 
 .app {

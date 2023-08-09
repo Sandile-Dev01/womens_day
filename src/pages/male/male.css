@@ -1,0 +1,31 @@
+@media (min-width: 0) {
+  .male_section {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("https://consequence.net/wp-content/uploads/2021/01/rowan-atkinson-mr-bean-stressful-exhausting.png?w=1031&h=580&crop=1&resize=1031%2C580&quality=80&strip");
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .male_section .home_btn {
+    text-decoration: none;
+    color: var(--secondary-clr);
+    font-family: var(--ff-primary);
+    font-weight: bold;
+    border: 2px solid var(--secondary-clr);
+    padding: var(--rem);
+    transition: all 250ms ease-in-out;
+  }
+
+  .male_section .home_btn:hover {
+    border: 2px solid var(--tertiary-clr);
+    background-color: var(--tertiary-clr);
+    color: var(--primary-clr);
+    filter: saturate(1.5);
+  }
+}

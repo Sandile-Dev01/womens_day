@@ -29,6 +29,7 @@
     padding: 0.5rem 2rem;
     text-align: center;
     transition: all 250ms ease-in-out;
+    font-weight: bold;
   }
 
   .male_btn {
