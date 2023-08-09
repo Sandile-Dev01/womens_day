@@ -1,0 +1,20 @@
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} /*# sourceMappingURL=index.css.map */
+
+:root {
+  --rem: 1rem;
+  --primary-clr: #234e70;
+  --secondary-clr: #fbf8be;
+  --tertiary-clr: #f7cb9c;
+}
+
+.app {
+  background-color: var(--primary-clr);
+  height: 100dvh;
+  position: relative;
+}

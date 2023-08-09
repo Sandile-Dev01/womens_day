@@ -1,0 +1,13 @@
+@media (min-width: 0) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    color: var(--secondary-clr);
+    padding: var(--rem);
+    font-size: 0.75rem;
+  }
+
+  footer a {
+    color: var(--tertiary-clr);
+  }
+}
